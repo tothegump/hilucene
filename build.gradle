@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+def javaVersion = JavaVersion.VERSION_1_6;
+sourceCompatibility = javaVersion;
+version = '1.0'
+
+repositories {
+    maven { url 'http://maven.aliyun.com/mvn/repository/' }
+//    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile "org.apache.lucene:lucene-core:3.0.0"
+    compile "joda-time:joda-time:2.2"
+}

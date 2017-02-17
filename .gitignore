@@ -1,0 +1,7 @@
+*.class
+.idea/*
+.gradle
+.build/*
+tmpzjm/*
+.DS_Store
+.DS_Store/*
